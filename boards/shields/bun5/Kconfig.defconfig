@@ -1,0 +1,6 @@
+if SHIELD_BUN5
+
+config ZMK_KEYBOARD_NAME
+    default "key5"
+
+endif # SHIELD_BUN5

@@ -1,6 +1,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/outputs.h>
 
 / {
     keymap {
@@ -26,162 +27,168 @@
             timeout-ms = <50>;
             key-positions = <4>;
             bindings = <&kp A>;
-        }
+        };
         
     combo_B {
             timeout-ms = <50>;
             key-positions = <3>;
             bindings = <&kp B>;
-        }
+        };
         
     combo_C {
             timeout-ms = <50>;
             key-positions = <4 3>;
             bindings = <&kp C>;
-        }
+        };
         
     combo_D {
             timeout-ms = <50>;
             key-positions = <2>;
             bindings = <&kp D>;
-        }
+        };
         
     combo_E {
             timeout-ms = <50>;
             key-positions = <4 2>;
             bindings = <&kp E>;
-        }
+        };
         
     combo_F {
             timeout-ms = <50>;
             key-positions = <3 2>;
             bindings = <&kp F>;
-        }
+        };
         
     combo_G {
             timeout-ms = <50>;
             key-positions = <4 3 2>;
             bindings = <&kp G>;
-        }
+        };
         
     combo_H {
             timeout-ms = <50>;
             key-positions = <1>;
             bindings = <&kp H>;
-        }
+        };
         
     combo_I {
             timeout-ms = <50>;
             key-positions = <4 1>;
             bindings = <&kp I>;
-        }
+        };
         
     combo_J {
             timeout-ms = <50>;
             key-positions = <3 1>;
             bindings = <&kp J>;
-        }
+        };
         
     combo_K {
             timeout-ms = <50>;
             key-positions = <4 3 1>;
             bindings = <&kp K>;
-        }
+        };
         
     combo_L {
             timeout-ms = <50>;
             key-positions = <2 1>;
             bindings = <&kp L>;
-        }
+        };
         
     combo_M {
             timeout-ms = <50>;
             key-positions = <4 2 1>;
             bindings = <&kp M>;
-        }
+        };
         
     combo_N {
             timeout-ms = <50>;
             key-positions = <3 2 1>;
             bindings = <&kp N>;
-        }
+        };
         
     combo_O {
             timeout-ms = <50>;
             key-positions = <4 3 2 1>;
             bindings = <&kp O>;
-        }
+        };
         
     combo_P {
             timeout-ms = <50>;
             key-positions = <0>;
             bindings = <&kp P>;
-        }
+        };
         
     combo_Q {
             timeout-ms = <50>;
             key-positions = <4 0>;
             bindings = <&kp Q>;
-        }
+        };
         
     combo_R {
             timeout-ms = <50>;
             key-positions = <3 0>;
             bindings = <&kp R>;
-        }
+        };
         
     combo_S {
             timeout-ms = <50>;
             key-positions = <4 3 0>;
             bindings = <&kp S>;
-        }
+        };
         
     combo_T {
             timeout-ms = <50>;
             key-positions = <2 0>;
             bindings = <&kp T>;
-        }
+        };
         
     combo_U {
             timeout-ms = <50>;
             key-positions = <4 2 0>;
             bindings = <&kp U>;
-        }
+        };
         
     combo_V {
             timeout-ms = <50>;
             key-positions = <3 2 0>;
             bindings = <&kp V>;
-        }
+        };
         
     combo_W {
             timeout-ms = <50>;
             key-positions = <4 3 2 0>;
             bindings = <&kp W>;
-        }
+        };
         
     combo_X {
             timeout-ms = <50>;
             key-positions = <1 0>;
             bindings = <&kp X>;
-        }
+        };
         
     combo_Y {
             timeout-ms = <50>;
             key-positions = <4 1 0>;
             bindings = <&kp Y>;
-        }
+        };
         
     combo_Z {
             timeout-ms = <50>;
             key-positions = <3 1 0>;
             bindings = <&kp Z>;
-        }
+        };
+
+    combo_OUT_BLE {
+        timeout-ms = <50>;
+        key-positions = <1 2 3 4>;
+        bindings = <&kp OUT_BLE>;
+    };
 
     combo_BT_CLR {
         timeout-ms = <50>;
-        key-positions = <0 1 2 3 4>
-        bindings = <&kp BT_CLR>
-    }
-    }
-}
+        key-positions = <0 1 2 3 4>;
+        bindings = <&kp BT_CLR>;
+        };
+    };
+};

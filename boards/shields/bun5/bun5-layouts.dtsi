@@ -1,19 +1,8 @@
-#include <physical_layouts.dtsi>
-
 / {
-    default_layout: default_layout {
+    physical_layout0: physical_layout_0 { // First physical layout, use different naming for other layouts
         compatible = "zmk,physical-layout";
         display-name = "Default Layout";
-
-        transform = <&default_transform>;
-        kscan = <&kscan>;
-
-        keys
-            = <&key_physical_attrs 100 100   0   0  0  0  0>
-            , <&key_physical_attrs 100 100 100   0  0  0  0>
-            , <&key_physical_attrs 100 100 200   0  0  0  0>
-            , <&key_physical_attrs 100 100  50 100  0  0  0>
-            , <&key_physical_attrs 100 100 150 100  0  0  0>
-            ;
+        kscan = <&kscan0>; // Label of the kscan node, optional if all layouts use the same
+        transform = <&default_transform>; // Label of the matrix transform for this layout
     };
 };

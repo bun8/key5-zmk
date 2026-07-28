@@ -6,6 +6,7 @@
         compatible = "zmk,keymap";
 
         default_layer {
+            display-name = "Base";
             bindings = <
                 &kp A
                 &kp B
@@ -16,3 +17,164 @@
         };
     };
 };
+
+/ {
+    combos {
+        compatible = "zmk,combos";
+        combo_A {
+                timeout_ms = <50>;
+                key-positions = <4>;
+                bindings = <&kp A>;
+            }
+            
+        combo_B {
+                timeout_ms = <50>;
+                key-positions = <3>;
+                bindings = <&kp B>;
+            }
+            
+        combo_C {
+                timeout_ms = <50>;
+                key-positions = <4 3>;
+                bindings = <&kp C>;
+            }
+            
+        combo_D {
+                timeout_ms = <50>;
+                key-positions = <2>;
+                bindings = <&kp D>;
+            }
+            
+        combo_E {
+                timeout_ms = <50>;
+                key-positions = <4 2>;
+                bindings = <&kp E>;
+            }
+            
+        combo_F {
+                timeout_ms = <50>;
+                key-positions = <3 2>;
+                bindings = <&kp F>;
+            }
+            
+        combo_G {
+                timeout_ms = <50>;
+                key-positions = <4 3 2>;
+                bindings = <&kp G>;
+            }
+            
+        combo_H {
+                timeout_ms = <50>;
+                key-positions = <1>;
+                bindings = <&kp H>;
+            }
+            
+        combo_I {
+                timeout_ms = <50>;
+                key-positions = <4 1>;
+                bindings = <&kp I>;
+            }
+            
+        combo_J {
+                timeout_ms = <50>;
+                key-positions = <3 1>;
+                bindings = <&kp J>;
+            }
+            
+        combo_K {
+                timeout_ms = <50>;
+                key-positions = <4 3 1>;
+                bindings = <&kp K>;
+            }
+            
+        combo_L {
+                timeout_ms = <50>;
+                key-positions = <2 1>;
+                bindings = <&kp L>;
+            }
+            
+        combo_M {
+                timeout_ms = <50>;
+                key-positions = <4 2 1>;
+                bindings = <&kp M>;
+            }
+            
+        combo_N {
+                timeout_ms = <50>;
+                key-positions = <3 2 1>;
+                bindings = <&kp N>;
+            }
+            
+        combo_O {
+                timeout_ms = <50>;
+                key-positions = <4 3 2 1>;
+                bindings = <&kp O>;
+            }
+            
+        combo_P {
+                timeout_ms = <50>;
+                key-positions = <0>;
+                bindings = <&kp P>;
+            }
+            
+        combo_Q {
+                timeout_ms = <50>;
+                key-positions = <4 0>;
+                bindings = <&kp Q>;
+            }
+            
+        combo_R {
+                timeout_ms = <50>;
+                key-positions = <3 0>;
+                bindings = <&kp R>;
+            }
+            
+        combo_S {
+                timeout_ms = <50>;
+                key-positions = <4 3 0>;
+                bindings = <&kp S>;
+            }
+            
+        combo_T {
+                timeout_ms = <50>;
+                key-positions = <2 0>;
+                bindings = <&kp T>;
+            }
+            
+        combo_U {
+                timeout_ms = <50>;
+                key-positions = <4 2 0>;
+                bindings = <&kp U>;
+            }
+            
+        combo_V {
+                timeout_ms = <50>;
+                key-positions = <3 2 0>;
+                bindings = <&kp V>;
+            }
+            
+        combo_W {
+                timeout_ms = <50>;
+                key-positions = <4 3 2 0>;
+                bindings = <&kp W>;
+            }
+            
+        combo_X {
+                timeout_ms = <50>;
+                key-positions = <1 0>;
+                bindings = <&kp X>;
+            }
+            
+        combo_Y {
+                timeout_ms = <50>;
+                key-positions = <4 1 0>;
+                bindings = <&kp Y>;
+            }
+            
+        combo_Z {
+                timeout_ms = <50>;
+                key-positions = <3 1 0>;
+                bindings = <&kp Z>;
+            }
+    }
+}

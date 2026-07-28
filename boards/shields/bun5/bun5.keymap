@@ -182,13 +182,13 @@
     combo_OUT_BLE {
         timeout-ms = <50>;
         key-positions = <1 2 3 4>;
-        bindings = <&kp OUT_BLE>;
+        bindings = <&out OUT_BLE>;
     };
 
     combo_BT_CLR {
         timeout-ms = <50>;
         key-positions = <0 1 2 3 4>;
-        bindings = <&kp BT_CLR>;
+        bindings = <&bt BT_CLR>;
         };
     };
 };

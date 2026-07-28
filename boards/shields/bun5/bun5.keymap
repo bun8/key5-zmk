@@ -179,10 +179,10 @@
             bindings = <&kp Z>;
         };
 
-    combo_OUT_BLE {
+    combo_OUT_TOG {
         timeout-ms = <50>;
         key-positions = <0 1 2 3>;
-        bindings = <&out OUT_BLE>;
+        bindings = <&out OUT_TOG>;
     };
 
     combo_BT_CLR {
